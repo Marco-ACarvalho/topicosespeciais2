@@ -11,7 +11,7 @@ import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
 import { LivrosComponent } from './livros/livros.component';
 import { LivroComponent } from './livros/livro/livro.component'
-
+import {LivrosService} from './livros/livros.service';
 
 @NgModule({
   declarations: [
@@ -27,7 +27,9 @@ import { LivroComponent } from './livros/livro/livro.component'
     HttpModule,
     RouterModule.forRoot(ROUTES)
   ],
-  providers: [],
+  providers: [
+    LivrosService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
