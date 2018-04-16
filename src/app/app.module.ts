@@ -10,8 +10,13 @@ import { HeaderComponent } from './header/header.component';
 import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
 import { LivrosComponent } from './livros/livros.component';
-import { LivroComponent } from './livros/livro/livro.component'
-import {LivrosService} from './livros/livros.service';
+import { LivroComponent } from './livros/livro/livro.component';
+import { LivrosService } from './livros/livros.service';
+import { LivroDetailComponent } from './livro-detail/livro-detail.component';
+import { MenuComponent } from './livro-detail/menu/menu.component';
+import { ShoppingCartComponent } from './livro-detail/shopping-cart/shopping-cart.component';
+import { MenuItemComponent } from './livro-detail/menu-item/menu-item.component';
+import { ReviewsComponent } from './livro-detail/reviews/reviews.component'
 
 @NgModule({
   declarations: [
@@ -20,7 +25,12 @@ import {LivrosService} from './livros/livros.service';
     HomeComponent,
     AboutComponent,
     LivrosComponent,
-    LivroComponent
+    LivroComponent,
+    LivroDetailComponent,
+    MenuComponent,
+    ShoppingCartComponent,
+    MenuItemComponent,
+    ReviewsComponent
   ],
   imports: [
     BrowserModule,
@@ -30,6 +40,8 @@ import {LivrosService} from './livros/livros.service';
   providers: [
     LivrosService
   ],
-  bootstrap: [AppComponent]
+  bootstrap: [
+    AppComponent
+  ]
 })
 export class AppModule { }
