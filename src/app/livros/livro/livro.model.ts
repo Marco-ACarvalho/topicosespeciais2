@@ -4,7 +4,7 @@ export interface Livro {
   autor: string
   editora: string
   category: string
-  price: string
+  price: number
   tamanho: string
   rating: string
   imagePath: string

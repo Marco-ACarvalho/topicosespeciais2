@@ -6,7 +6,7 @@
       "autor": "Eduardo Spohr",
       "editora": "Verus",
       "category": "Fantasia",
-      "price": "R$ 29,90",
+      "price": 29.90,
       "tamanho": "586 páginas",
       "rating": "4.97",
       "imagePath": "assets/img/livros/batalha_apocalipse.jpg"
@@ -17,7 +17,7 @@
       "autor": "Eduardo Spohr, Alexandre Ottoni e Deive Pazos",
       "editora": "NerdBooks",
       "category": "Fantasia",
-      "price": "R$ 39,90",
+      "price": 39.90,
       "tamanho": "336 páginas",
       "rating": "4.8",
       "imagePath": "assets/img/livros/Protocolo-bluehand-capa2.jpg"
@@ -28,7 +28,7 @@
       "autor": "Markus Zusak",
       "editora": "Intrinseca",
       "category": "Drama",
-      "price": "R$ 29,90",
+      "price": 29.90,
       "tamanho": "480 páginas",
       "rating": "4,97",
       "imagePath": "assets/img/livros/a_menina_que_roubava_livros_capa.jpg"
@@ -39,7 +39,7 @@
       "autor": "John Boyne",
       "editora": "Seguinte",
       "category": "Drama",
-      "price": "R$ 27,90",
+      "price": 27.90,
       "tamanho": "192 páginas",
       "rating": "4,87",
       "imagePath": "assets/img/livros/o_menino_do_pijama_listrado_capa.jpg"
@@ -50,7 +50,7 @@
       "autor": "Sun Tzu",
       "editora": "Jardim dos Livros",
       "category": "Estrategia",
-      "price": "R$ 25,90",
+      "price": 25.90,
       "tamanho": "160 páginas",
       "rating": "4.57",
       "imagePath": "assets/img/livros/a_arte_da_gerra_capa.jpg"
@@ -61,381 +61,208 @@
       "autor": "Felipe Neto",
       "editora": "Ediouro",
       "category": "Juvenil",
-      "price": "R$ 19,90",
+      "price": 19.90,
       "tamanho": "64 páginas",
       "rating": "4.97",
       "imagePath": "assets/img/livros/a_vida_por_tras_das_cameras_capa.jpg"
     }
   ],
-  "restaurants": [
-    {
-      "id": "bread-bakery",
-      "name": "Bread & Bakery",
-      "category": "Bakery",
-      "deliveryEstimate": "25m",
-      "rating": 4.9,
-      "imagePath": "assets/img/restaurants/breadbakery.png",
-      "about": "A Bread & Brakery tem 40 anos de mercado. Fazemos os melhores doces e pães. Compre e confira.",
-      "hours": "Funciona de segunda à sexta, de 8h às 23h"
-    },
-    {
-      "id": "burger-house",
-      "name": "Burger House",
-      "category": "Hamburgers",
-      "deliveryEstimate": "100m",
-      "rating": 3.5,
-      "imagePath": "assets/img/restaurants/burgerhouse.png",
-      "about": "40 anos se especializando em trash food.",
-      "hours": "Funciona todos os dias, de 10h às 22h"
-    },
-    {
-      "id": "coffee-corner",
-      "name": "Coffee Corner",
-      "category": "Coffee Shop",
-      "deliveryEstimate": "30-40m",
-      "rating": 4.8,
-      "imagePath": "assets/img/restaurants/coffeecorner.png",
-      "about": "A Coffe Corner foi eleita a melhor cafeteria da cidade.",
-      "hours": "Funciona de segunda à sábado, de 6h às 22h"
-    },
-    {
-      "id": "green-food",
-      "name": "Green Food",
-      "category": "Saudável",
-      "deliveryEstimate": "75m",
-      "rating": 4.1,
-      "imagePath": "assets/img/restaurants/greenfood.png",
-      "about": "Comida saudável é no Green Food. Compramos barato, vendemos caro. ;)",
-      "hours": "Somente em horário de almoço, das 11h às 15h"
-    },
-    {
-      "id": "ice-cream",
-      "name": "Ice Cream",
-      "category": "Ice Creams",
-      "deliveryEstimate": "40-65m",
-      "rating": 4.5,
-      "imagePath": "assets/img/restaurants/icy.png",
-      "about": "A Ice Cream é uma sorveteria inovadora.",
-      "hours": "Funciona todos os dias, de 10h às 1h"
-    },
-    {
-      "id": "tasty-treats",
-      "name": "Tasty Treats",
-      "category": "Doces",
-      "deliveryEstimate": "20m",
-      "rating": 4.4,
-      "imagePath": "assets/img/restaurants/tasty.png",
-      "about": "A doceria com mais tradição da cidade",
-      "hours": "Funciona de segunda à sábado, de 8h às 23h"
-    }
-  ],
-  "menu": [
-    {
-      "id": "cup-cake",
-      "imagePath": "assets/img/foods/cupcake.png",
-      "name": "Cup Cake",
-      "description": "Cup Cake recheado de Doce de Leite",
-      "price": 8.7,
-      "restaurantId": "bread-bakery"
-    },
-    {
-      "id": "donut",
-      "imagePath": "assets/img/foods/donut.png",
-      "name": "Donut",
-      "description": "Coberto com chantilly",
-      "price": 2.5,
-      "restaurantId": "bread-bakery"
-    },
-    {
-      "id": "bread",
-      "imagePath": "assets/img/foods/bread.png",
-      "name": "Pão Artesanal Italiano",
-      "description": "Pão artesanal com queijos italianos",
-      "price": 15.9,
-      "restaurantId": "bread-bakery"
-    },
-    {
-      "id": "burger",
-      "imagePath": "assets/img/foods/burger.png",
-      "name": "Classic Burger",
-      "description": "O clássico. Não tem como errar.",
-      "price": 18.5,
-      "restaurantId": "burger-house"
-    },
-    {
-      "id": "fries",
-      "imagePath": "assets/img/foods/fries.png",
-      "name": "Batatas Fritas",
-      "description": "Batatas fritas crocantes",
-      "price": 5.5,
-      "restaurantId": "burger-house"
-    },
-    {
-      "id": "coke.png",
-      "imagePath": "assets/img/foods/coke.png",
-      "name": "Refrigerante",
-      "description": "O refri mais gelado da cidade.",
-      "price": 4.5,
-      "restaurantId": "burger-house"
-    },
-    {
-      "id": "capp",
-      "imagePath": "assets/img/foods/capp.png",
-      "name": "Cappuccino com Chantilly",
-      "description": "Tradicional cappuccino com chantilly",
-      "price": 9.9,
-      "restaurantId": "coffee-corner"
-    },
-    {
-      "id": "espreso",
-      "imagePath": "assets/img/foods/espreso.png",
-      "name": "Super Espreso",
-      "description": "Café espresso duplo. ",
-      "price": 12.5,
-      "restaurantId": "coffee-corner"
-    },
-    {
-      "id": "starb",
-      "imagePath": "assets/img/foods/starb.png",
-      "name": "Starbucks Copycat",
-      "description": "O mais pedido da casa. O verdadeiro café americano pura água.",
-      "price": 15.6,
-      "restaurantId": "coffee-corner"
-    },
-    {
-      "id": "zlasagna",
-      "imagePath": "assets/img/foods/zlasagna.png",
-      "name": "Lasagna de Zucchini",
-      "description": "Lasagna deliciosa que se salva por causa do queijo",
-      "price": 14.9,
-      "restaurantId": "green-food"
-    },
-    {
-      "id": "greensandwich",
-      "imagePath": "assets/img/foods/greensandwich.png",
-      "name": "Sanduíche de Frango",
-      "description": "Frango grelhado e salada",
-      "price": 10.5,
-      "restaurantId": "green-food"
-    },
-    {
-      "id": "ceasar",
-      "imagePath": "assets/img/foods/ceasar.png",
-      "name": "Salada Ceasar",
-      "description": "Clássica salada ceasar.",
-      "price": 33.9,
-      "restaurantId": "green-food"
-    },
-    {
-      "id": "sunday",
-      "imagePath": "assets/img/foods/sunday.png",
-      "name": "Mega Sunday",
-      "description": "Sunday com várias bolas de sorvete a sua escolha",
-      "price": 21.5,
-      "restaurantId": "ice-cream"
-    },
-    {
-      "id": "chocpop",
-      "imagePath": "assets/img/foods/chocpop.png",
-      "name": "Picolé de Brigadeiro",
-      "description": "Picolé de brigadeiro recheado com côco.",
-      "price": 8.5,
-      "restaurantId": "ice-cream"
-    },
-    {
-      "id": "icestd.png",
-      "imagePath": "assets/img/foods/icestd.png",
-      "name": "Sorvete Simples",
-      "description": "Clássico sorvete de rua onde todos os sabores são idênticos.",
-      "price": 1.5,
-      "restaurantId": "ice-cream"
-    },
-    {
-      "id": "cup",
-      "imagePath": "assets/img/foods/cup.png",
-      "name": "Cup Cake de Choc. Branco",
-      "description": "Cup Cake de chocolate branco",
-      "price": 5.5,
-      "restaurantId": "tasty-treats"
-    },
-    {
-      "id": "straw",
-      "imagePath": "assets/img/foods/straw.png",
-      "name": "Bolo de Morango",
-      "description": "Bolo recheado e coberto com morangos",
-      "price": 40.5,
-      "restaurantId": "tasty-treats"
-    },
-    {
-      "id": "cake",
-      "imagePath": "assets/img/foods/cake.png",
-      "name": "Fatia de Bolo",
-      "description": "Fatia de bolo de morango",
-      "price": 5.9,
-      "restaurantId": "tasty-treats"
-    }
-  ],
   "reviews": [
+    {
+      "name": "Laila",
+      "date": "2017-02-02T18:25:43",
+      "rating": 5,
+      "comments": "Um dos melhores livros que já li, muito rico em detalhes, história envolvente, amei!",
+      "livroId": "batalha_apocalipse"
+    },
     {
       "name": "Julia",
       "date": "2017-01-23T18:25:43",
-      "rating": 4.5,
-      "comments": "Tudo muito bom, entrega no tempo certo",
-      "restaurantId": "bread-bakery"
+      "rating": 5,
+      "comments": "O autor te joga em uma enxurrada de eventos épicos com pausas que recapitulam a história e ainda por cima te ensinam muitas coisas, desde geografia e história à filosofia, enquanto ainda por cima constrói os personagens.",
+      "livroId": "batalha_apocalipse"
     },
     {
       "name": "Aline",
       "date": "2016-12-12T18:25:43",
-      "rating": 3,
-      "comments": "NÃO recomendo. O recheio é só um creme, não tem camarão e nem carne",
-      "restaurantId": "bread-bakery"
-    },
-    {
-      "name": "Renata",
-      "date": "2016-12-12T18:25:43",
-      "rating": 2,
-      "comments": "Não foi muito agradável ao nosso paladar, e eu e meu esposo no outro dia passamos super mal. Pode até ter sido outra coisa, mas...",
-      "restaurantId": "bread-bakery"
+      "rating": 4.5,
+      "comments": "O livro brinca de maneira inteligente com alguns acontecimentos históricos.",
+      "livroId": "batalha_apocalipse"
     },
     {
       "name": "Renata",
       "date": "2016-12-12T18:25:43",
       "rating": 5,
       "comments": "Nunca deixou na mão, comida sempre deliciosa.",
-      "restaurantId": "bread-bakery"
+      "livroId": "protocolo_bluehand_ali"
     },
     {
       "name": "Daniela",
       "date": "2017-01-23T18:25:43",
-      "rating": 4,
-      "comments": "Sanduíche muito bom! Já pedi diversas vezes sempre bom!",
-      "restaurantId": "burger-house"
-    },
-    {
-      "name": "Laila",
-      "date": "2017-02-02T18:25:43",
       "rating": 5,
-      "comments": "Melhor hambúrguer que já provei. Vai ser difícil voltar para mc e bk",
-      "restaurantId": "burger-house"
+      "comments": "O livro veio muito antes do previsto e com otima qualidade, tem um conteudo muito bom vc fica paranoico com a leitura oque prova que o livro teve exito.",
+      "livroId": "protocolo_bluehand_ali"
     },
     {
       "name": "Suzana",
       "date": "2016-12-12T18:25:43",
-      "rating": 3.5,
-      "comments": "Meu sanduíche chegou frio e todo desmontado =\\",
-      "restaurantId": "burger-house"
-    },
-    {
-      "name": "Eric",
-      "date": "2017-01-23T18:25:43",
-      "rating": 4.5,
-      "comments": "Excelente opção! Recomendo!",
-      "restaurantId": "coffee-corner"
-    },
-    {
-      "name": "Amanda",
-      "date": "2017-02-02T18:25:43",
-      "rating": 2.5,
-      "comments": "Demorou muito e o café veio gelado",
-      "restaurantId": "coffee-corner"
-    },
-    {
-      "name": "Carla",
-      "date": "2016-12-12T18:25:43",
       "rating": 4.8,
-      "comments": "Tudo perfeito. Entrega, embalagem, comida. Resultado? Melhor custo beneficio",
-      "restaurantId": "coffee-corner"
+      "comments": "Curti muito o estilo do livro, bem criativo mesmo. Além de boa qualidade de roteiro, o papel também é caprichado, a capa ficou bem bacana e os detalhes de impressão [como anotações nas páginas e coisas assim] foram muito bem sacados parabéns a todos os envolvidos.",
+      "livroId": "protocolo_bluehand_ali"
     },
     {
-      "name": "Rodrigo",
-      "date": "2016-12-12T18:25:43",
-      "rating": 4,
-      "comments": "Muito rápida a entrega, mas é caro.",
-      "restaurantId": "coffee-corner"
-    },
-    {
-      "name": "André",
-      "date": "2016-12-12T18:25:43",
+      "name": "Emanuel Ribeiro",
+      "date": "2015-10-28T18:25:43",
       "rating": 4.5,
-      "comments": "Excelente como sempre!",
-      "restaurantId": "coffee-corner"
+      "comments": "Muito legal a historia.",
+      "livroId": "a_menina_que_roubava_livros"
     },
     {
-      "name": "João",
-      "date": "2017-01-23T18:25:43",
+      "name": "Shirley Martins",
+      "date": "2016-05-10T18:25:43",
+      "rating": 4.5,
+      "comments": "Uma história impressionante que não importa quantas vezes leia, sempre me emociona.",
+      "livroId": "a_menina_que_roubava_livros"
+    },
+    {
+      "name": "Tania Brandt",
+      "date": "2017-10-04T18:25:43",
       "rating": 5,
-      "comments": "Excelente. Fiz o pedido com outro endereço e quando vi o erro liguei avisando. O motoqueiro cortou a cidade todinha e a comida ainda chegou quentinha (e deliciosa). Estou sempre pedindo e recomendando",
-      "restaurantId": "green-food"
+      "comments": "Livro: ótimo conteúdo, fala da história de uma maneira clara, fácil entendimento. Simboliza a pureza de um inocente( a criança) perante as atrocidades cometidas pelos adultos.",
+      "livroId": "o_menino_do_pijama_listrado"
     },
     {
-      "name": "Marcelo",
-      "date": "2017-02-02T18:25:43",
-      "rating": 4.5,
-      "comments": "Chegou muito rápido, antes mesmo da previsão",
-      "restaurantId": "green-food"
-    },
-    {
-      "name": "Fatinha",
-      "date": "2017-01-23T18:25:43",
-      "rating": 2,
-      "comments": "Ñ gostei dos sabores q pedi e achei o preço muito elevado",
-      "restaurantId": "ice-cream"
-    },
-    {
-      "name": "Lucas",
-      "date": "2017-02-02T18:25:43",
-      "rating": 2.5,
-      "comments": "Esperar 1:45hr pra receber o pedido é INACEITÁVEL",
-      "restaurantId": "ice-cream"
-    },
-    {
-      "name": "Jacira",
-      "date": "2017-02-01T18:25:43",
-      "rating": 4.5,
-      "comments": "Veio OK!",
-      "restaurantId": "ice-cream"
-    },
-    {
-      "name": "Ana",
-      "date": "2017-01-23T18:25:43",
+      "name": "Juliana Prestes",
+      "date": "2017-08-17T18:25:43",
       "rating": 5,
-      "comments": "Rápido e sempre uma delicia!! Ja pedi 3x e sempre veio rapido e tudo certinho.",
-      "restaurantId": "tasty-treats"
+      "comments": "Além do título, a história toda é admirável! Eu certamente amo fatos reais históricos do país e do mundo. Apesar de ser surpreendente e emotivo... Abrange sobre verdades vivenciadas em todo mundo. Recomendo para leitura!",
+      "livroId": "o_menino_do_pijama_listrado"
     },
     {
-      "name": "Larissa",
-      "date": "2017-02-02T18:25:43",
-      "rating": 2.5,
-      "comments": "A taxa de entrega poderia ser mais barata.",
-      "restaurantId": "tasty-treats"
-    },
-    {
-      "name": "Jarbas",
-      "date": "2016-12-15T18:25:43",
-      "rating": 4.7,
-      "comments": "Excelente e chegou muito rápido!",
-      "restaurantId": "tasty-treats"
-    },
-    {
-      "name": "Rafaela",
-      "date": "2017-01-12T18:25:43",
-      "rating": 5,
-      "comments": "Chegou rápido e perfeito!",
-      "restaurantId": "tasty-treats"
-    },
-    {
-      "name": "Julia",
-      "date": "2016-12-12T18:25:43",
-      "rating": 1.5,
-      "comments": "Sempre gostei muito dos pedidos que eu fiz, mas dessa vez foi péssimo e decepcionou muito. Demorou 30min a mais pra chegar do que o tempo máximo esperado.",
-      "restaurantId": "tasty-treats"
-    },
-    {
-      "name": "Marília",
-      "date": "2016-12-20T18:25:43",
+      "name": "Marcelo Galvão",
+      "date": "2017-03-30T18:25:43",
       "rating": 4.5,
-      "comments": "Taxa de entrega bastante elevada e precisa colocar no app se a pessoa quer porção adicional de algo (calda, crocante etc)",
-      "restaurantId": "tasty-treats"
+      "comments": "Um livro com toda sabedoria oriental que se aplica para os dias de hoje, apesar de ser milenar.",
+      "livroId": "a_arte_da_gerra"
+    },
+    {
+      "name": "Bruno Castro",
+      "date": "2015-09-22T18:25:43",
+      "rating": 5,
+      "comments": "Excelente livro",
+      "livroId": "a_arte_da_gerra"
+    },
+    {
+      "name": "Viviam Nunes",
+      "date": "2018-03-18T18:25:43",
+      "rating": 4.5,
+      "comments": "O livro é legal.",
+      "livroId": "a_vida_por_tras_das_cameras"
+    },
+    {
+      "name": "Moises Almeida",
+      "date": "2018-03-17T18:25:43",
+      "rating": 4.5,
+      "comments": "Bem legal.",
+      "livroId": "a_vida_por_tras_das_cameras"
+    }
+  ],
+  "menu": [
+    {
+      "id": "protocolo_bluehand_ali",
+      "imagePath": "assets/img/livros/Protocolo-bluehand-capa2.jpg",
+      "name": "Protocolo Bluehand: Alienígenas",
+      "autor": "Eduardo Spohr",
+      "price": 39.90,
+      "livroId": "batalha_apocalipse"
+    },
+    {
+      "id": "a_arte_da_gerra",
+      "imagePath": "assets/img/livros/a_arte_da_gerra_capa.jpg",
+      "name": "A Arte da Guerra",
+      "autor": "Sun Tzu",
+      "price": 25.90,
+      "livroId": "batalha_apocalipse"
+    },
+    {
+      "id": "batalha_apocalipse",
+      "imagePath": "assets/img/livros/batalha_apocalipse.jpg",
+      "name": "Batalha do Apocalipse",
+      "autor": "Eduardo Spohr",
+      "price": 29.90,
+      "livroId": "protocolo_bluehand_ali"
+    },
+    {
+      "id": "a_arte_da_gerra",
+      "imagePath": "assets/img/livros/a_arte_da_gerra_capa.jpg",
+      "name": "A Arte da Guerra",
+      "autor": "Sun Tzu",
+      "price": 25.90,
+      "livroId": "protocolo_bluehand_ali"
+    },
+    {
+      "id": "protocolo_bluehand_ali",
+      "imagePath": "assets/img/livros/Protocolo-bluehand-capa2.jpg",
+      "name": "Protocolo Bluehand: Alienígenas",
+      "autor": "Eduardo Spohr",
+      "price": 39.90,
+      "livroId": "a_menina_que_roubava_livros"
+    },
+    {
+      "id": "a_arte_da_gerra",
+      "imagePath": "assets/img/livros/a_arte_da_gerra_capa.jpg",
+      "name": "A Arte da Guerra",
+      "autor": "Sun Tzu",
+      "price": 25.90,
+      "livroId": "a_menina_que_roubava_livros"
+    },
+    {
+      "id": "protocolo_bluehand_ali",
+      "imagePath": "assets/img/livros/Protocolo-bluehand-capa2.jpg",
+      "name": "Protocolo Bluehand: Alienígenas",
+      "autor": "Eduardo Spohr",
+      "price": 39.90,
+      "livroId": "o_menino_do_pijama_listrado"
+    },
+    {
+      "id": "a_arte_da_gerra",
+      "imagePath": "assets/img/livros/a_arte_da_gerra_capa.jpg",
+      "name": "A Arte da Guerra",
+      "autor": "Sun Tzu",
+      "price": 25.90,
+      "livroId": "o_menino_do_pijama_listrado"
+    },
+    {
+      "id": "protocolo_bluehand_ali",
+      "imagePath": "assets/img/livros/Protocolo-bluehand-capa2.jpg",
+      "name": "Protocolo Bluehand: Alienígenas",
+      "autor": "Eduardo Spohr",
+      "price": 39.90,
+      "livroId": "a_arte_da_gerra"
+    },
+    {
+      "id": "batalha_apocalipse",
+      "imagePath": "assets/img/livros/batalha_apocalipse.jpg",
+      "name": "Batalha do Apocalipse",
+      "autor": "Eduardo Spohr",
+      "price": 29.90,
+      "livroId": "a_arte_da_gerra"
+    },
+    {
+      "id": "protocolo_bluehand_ali",
+      "imagePath": "assets/img/livros/Protocolo-bluehand-capa2.jpg",
+      "name": "Protocolo Bluehand: Alienígenas",
+      "autor": "Eduardo Spohr",
+      "price": 39.90,
+      "livroId": "a_vida_por_tras_das_cameras"
+    },
+    {
+      "id": "a_arte_da_gerra",
+      "imagePath": "assets/img/livros/a_arte_da_gerra_capa.jpg",
+      "name": "A Arte da Guerra",
+      "autor": "Sun Tzu",
+      "price": 25.90,
+      "livroId": "a_vida_por_tras_das_cameras"
     }
   ],
   "orders": []

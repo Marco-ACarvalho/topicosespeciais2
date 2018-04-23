@@ -32,7 +32,7 @@
                     <dt>Tamanho</dt>
                     <dd> {{livro?.tamanho}}</dd>
                     <dt>Preço</dt>
-                    <dd> {{livro?.price}}</dd>
+                    <dd> {{livro?.price | currency: 'BRL': true}}</dd>
                   </dl>
                 </div>
                 <!-- /.box-body -->

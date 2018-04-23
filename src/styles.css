@@ -150,7 +150,7 @@ body {
   background: rgba(0, 0, 0, 0.2);
 }
 .menu-item-info-box-icon > img {
-  max-width: 100%;
+  max-width: 70%;
   /*border-right: 1px solid rgba(0, 0, 0, 0.1);*/
 }
 .menu-item-info-box-price {

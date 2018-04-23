@@ -8,7 +8,7 @@
       <span class="place-info-box-detail">{{livro.autor}}</span>
       <span class="place-info-box-detail">{{livro.category}}</span>
       <br />
-      <span class="place-info-box-text">{{livro.price}}</span>
+      <span class="place-info-box-text">{{livro.price | currency: 'BRL': true}}</span>
     </div>
     <!-- /.info-box-content -->
   </div>

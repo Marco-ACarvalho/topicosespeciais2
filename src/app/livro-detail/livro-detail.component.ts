@@ -14,12 +14,12 @@ export class LivroDetailComponent implements OnInit {
 
   livro: Livro
 
-  constructor(private restaurantsService: LivrosService,
+  constructor(private livrosService: LivrosService,
               private route: ActivatedRoute) { }
 
   ngOnInit() {
 
-      this.restaurantsService.livroById(this.route.snapshot.params['id'])
+      this.livrosService.livroById(this.route.snapshot.params['id'])
         .subscribe(livro => this.livro = livro)
   }
 
